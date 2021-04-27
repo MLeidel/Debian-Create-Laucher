@@ -15,7 +15,7 @@ DESKTOP launcher._
 
 **Must be run as root**
 
-Examples:  
+Using:  
 
 on debian distros:  
 
