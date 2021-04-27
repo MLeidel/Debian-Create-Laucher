@@ -5,11 +5,8 @@ commants:
 
 Use:
     REQUIRES execution as root
-    Options:
-    1.  sudo su into root user
-        then execute
-    2.  from shell or launcher:
-        pkexec python3 ...fullpath.../appfile.py
+        pkexec python3 ...fullpath.../appfile.py  
+        sudo python3 ...
 '''
 from tkinter import *
 from tkinter.ttk import *  # defaults all widgets as ttk
