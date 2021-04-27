@@ -1,16 +1,30 @@
-# Debian-Create-Laucher
-Alternative Create Application Launcher for Debian based systems
+# Debian Create Launcher
 
-Some what more efficiant than the standard "create launchers"  
-coming with most desktops.
+**code file:** appfile.py  
+**date:** Apr 2021  
+**comments:**  
+Python 3.7+  
 
+Provides a GUI solution to create an application  
+launcher for both **menu** and **desktop**.  
+
+_Usually the "application.desktop" file is  
+created by the application's install program.  
+Some "Create Launcher's" only create the  
+DESKTOP launcher._    
+
+**Must be run as root**
+
+Examples:  
+
+on debian distros:  
 
 ```
-Use:
-    REQUIRES execution as root
-    Options:
-    1.  sudo su into root user
-        then execute
-    2.  from shell or launcher:
-        pkexec python3 ...fullpath.../appfile.py
+pkexec python3 FULLPATH/appfile.py
+```
+
+on Raspberry Pi:  
+
+```
+sudo python3 FULLPATH/appfile.py
 ```
