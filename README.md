@@ -28,3 +28,11 @@ on Raspberry Pi:
 ```
 sudo python3 FULLPATH/appfile.py
 ```
+
+Fields left blank are skipped with "Save".  
+"Name", "Type", and "Exec" are required.
+
+See the included PDF for a full list of  
+other possible key=vaule pairs.
+
+
